@@ -1,0 +1,17 @@
+.circle-container {
+  display: inline-flex;
+  height: 60px;
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.board-container{
+  width: 50vh;
+    display:grid;
+    grid-template-columns: repeat(7,1fr);
+
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(238, 235, 235, 0.719);
+    border-radius: 10px;
+}
